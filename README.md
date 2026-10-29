@@ -1,18 +1,20 @@
-# homebrew-perch
+# homebrew-pullshelf
 
-Homebrew tap for [Perch](https://github.com/yogeshvar/perch), a pull-down shelf for the Mac.
+Homebrew tap for [Pullshelf](https://github.com/yogeshvar/pullshelf), a pull-down shelf for the Mac.
 
 ```
-brew install --cask yogeshvar/perch/perch
+brew install --cask yogeshvar/pullshelf/pullshelf
 ```
 
 Or tap it first:
 
 ```
-brew tap yogeshvar/perch
-brew install --cask perch
+brew tap yogeshvar/pullshelf
+brew install --cask pullshelf
 ```
 
-Perch is ad-hoc signed and not notarized, so macOS blocks the first launch. The install output explains how to open it (System Settings, Privacy & Security, Open Anyway). Apple Silicon, macOS 13 or later.
+Pullshelf is ad-hoc signed and not notarized, so macOS blocks the first launch. The install output explains how to open it (System Settings, Privacy & Security, Open Anyway). Apple Silicon, macOS 13 or later.
 
-The cask in `Casks/perch.rb` is kept in step with each [Perch release](https://github.com/yogeshvar/perch/releases); see `RELEASING.md` in the main repository.
+The cask in `Casks/pullshelf.rb` is kept in step with each [Pullshelf release](https://github.com/yogeshvar/pullshelf/releases); see `RELEASING.md` in the main repository.
+
+> Pullshelf was called Perch before 0.1.1. If you installed `perch`, run `brew uninstall --cask perch` and then install `pullshelf`; your data moves over automatically.
